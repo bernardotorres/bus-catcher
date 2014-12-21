@@ -17,6 +17,7 @@ to know when there are more busses available.
 
 How it is today:
 
+```
 05:27D 05:45D 06:13D 06:27D 06:45D 06:52
 07:00 07:13D 07:20 07:32D 07:45D 08:00D
 08:30 09:02D 09:33D 10:03 10:33D 11:05D
@@ -30,11 +31,13 @@ How it is today:
 20:22 20:33 20:56 21:10D 21:25 21:42
 21:58 22:15D 22:30 22:40D 22:50 23:00D
 23:20 23:33D 00:12 01:00
+```
 
 Taken from: http://www.consorciofenix.com.br/horarios/ingleses,264
 
 How it becomes in stem-and-leaf:
 
+```
 LINHA Ingleses - 264
 ORIGEM Dias Úteis - Saída TICAN - Terminal Integração Canasvieiras
 SAÍDAS:
@@ -59,6 +62,7 @@ SAÍDAS:
 23: 00 20 33
 00: 12
 01: 00
+```
 
 Future
 ======

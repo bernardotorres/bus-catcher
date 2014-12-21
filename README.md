@@ -10,6 +10,8 @@ $ python setup.py install
 $ scrapy crawl fenix
 ```
 
+I recommend running it inside a virtualenv, since it has very strict setup.py dependencies.
+
 Introduction
 ============
 

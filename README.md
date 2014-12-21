@@ -3,6 +3,13 @@ bus-catcher
 
 Fetches information from Florianópolis bus lines and displays in a stem-and-leaf plot.
 
+To run it:
+
+```
+$ python setup.py install
+$ scrapy crawl fenix
+```
+
 Introduction
 ============
 

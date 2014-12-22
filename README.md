@@ -26,21 +26,19 @@ to know when there are more busses available.
 
 How it is today:
 
-```
-05:27D 05:45D 06:13D 06:27D 06:45D 06:52
-07:00 07:13D 07:20 07:32D 07:45D 08:00D
-08:30 09:02D 09:33D 10:03 10:33D 11:05D
-11:20D 11:25D 11:32D 11:47D 12:00 12:13D
-12:27D 12:40 12:48D 13:05 13:23 13:42
-14:02D 14:23 14:43 15:03D 15:23D 15:43
-16:03D 16:20 16:30D 16:40 16:55 17:10D
-17:20D 17:30 17:40 17:50D 18:00 18:10
-18:20D 18:30D 18:40D 18:50 19:00D 19:10
-19:20 19:30 19:40D 19:52D 20:02D 20:12
-20:22 20:33 20:56 21:10D 21:25 21:42
-21:58 22:15D 22:30 22:40D 22:50 23:00D
-23:20 23:33D 00:12 01:00
-```
+| 04:52D | 05:15D | 05:35D | 05:54D | 06:12D | 06:40D |
++--------+--------+--------+--------+--------+--------+
+| 07:07D | 07:20  | 07:29  | 07:42D | 07:49  | 08:02D |
+| 08:15D | 08:28D | 08:58  | 09:30D | 10:00D | 10:31  | 
+| 11:01D | 11:32D | 11:50D | 11:57D | 12:15D | 12:27  |
+| 12:42D | 12:55D | 13:10  | 13:15D | 13:34  | 13:55  |
+| 14:11  | 14:30D | 14:51  | 15:12  | 15:31D | 15:52D |
+| 16:11  | 16:33D | 16:50  | 17:05D | 17:17  | 17:28  | 
+| 17:44D | 17:53D | 18:06  | 18:16  | 18:25D | 18:36  |
+| 18:46  | 18:55D | 19:02D | 19:12D | 19:24  | 19:30D | 
+| 19:40  | 19:50  | 20:00  | 20:10D | 20:23D | 20:31D | 
+| 20:41  | 20:52  | 21:03  | 21:38D | 21:52  | 22:11  |
+| 22:43D | 23:20  | 00:00D |
 
 Taken from: http://www.consorciofenix.com.br/horarios/ingleses,264
 
@@ -78,5 +76,7 @@ Future
 
 This was just a coding exercise, but can expand to a exporter of bus lines data to different
 formats, to store in database and to show it on the web or make an API available.
+
+Adding scrappers, it could also fetch bus information for other cities.
 
 Feel free to fork and I'll be glad to accept pull requests.

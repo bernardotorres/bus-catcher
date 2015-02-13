@@ -23,9 +23,9 @@ class FenixSpider(scrapy.Spider):
                 periods += [(origin[0], times)]
         for origin, times in periods:
             byHour = OrderedDict()
-            print "LINHA", name
-            print "ORIGEM %s" % origin
-            print "SAÍDAS:"
+            print ("LINHA"+ name)
+            print ("ORIGEM %s" % origin)
+            print ("SAÍDAS:")
             for time, dow in times:
                 timeMatch = re.match("^([0-9]{2})([0-9]{2})$", time)
                 hour, minute = timeMatch.groups(0)
@@ -38,7 +38,7 @@ class FenixSpider(scrapy.Spider):
                 for minute in minutes:
                     out += " %s" % minute
                 out += "\n"
-            print out
+            print (out)
 
     def parse(self, response):
         for link in response.xpath("//a/@href").extract():

@@ -44,5 +44,5 @@ class FenixSpider(scrapy.Spider):
     def parse(self, response):
         for link in response.xpath("//a/@href").extract():
            if link.find(",") != -1:
-               url = "http://www.consorciofenix.com.br/horarios/%s" % link
+               url = "http://www.consorciofenix.com.br%s" % link
                yield Request(url, callback=self.parse_line)

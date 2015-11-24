@@ -15,3 +15,6 @@ NEWSPIDER_MODULE = 'buslinesscrapper.spiders'
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'buslinesscrapper (+http://www.yourdomain.com)'
+ITEM_PIPELINES = {
+    'buslinesscrapper.pipelines.report.BusRoutePlanPipeline': 100
+}
